@@ -1,0 +1,65 @@
+.hero-section { 
+color: #fff; padding: 160px 0;
+width:110%
+
+}
+
+
+
+
+.hero-row { 
+
+align-items: center;}
+
+
+.hero-row { display: flex; margin-right: -15px; margin-bottom: -15px; margin-left: 20px; flex-wrap: ; align-content: stretch; }
+
+
+
+.hero-col { margin-bottom: 15px; padding-right: 15px; padding-left: 15px; flex: 1; max-width: 50%; flex-basis: 50%; }
+
+
+.hero-textwrapper { max-width: 540px; padding-top: 0; padding-bottom: 60px; 	} 
+
+
+.hero-topline { color: #f00946; font-size: 16px; line-height: 16px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; margin-bottom: 16px;}
+
+.hero-heading { margin-bottom: 24px; font-size: 48px; line-height: 1.1; font-weight: 600; color: #f7f8fa;} 
+
+.dark { color: #1c2237;} 
+
+.darkBg { background-color: #1c2237;}
+
+.hero-text { max-width: 440px; margin-bottom: 35px; font-size: 18px; line-height: 24px;} 
+
+
+.hero-imgwrapper { max-width: 555px;}
+
+.hero-img { max-width: 90%; margin-top: 0; margin-right: 0; margin-left: 10px; padding-right: 0; } 
+
+img { border: 0; max-width: 100%; vertical-align: middle; display: inline-block;} 
+
+
+@media screen and (max-width: 991px) {
+
+
+.container { padding-right: 30px; padding-left: 30px; }
+
+
+} 
+
+
+@media screen and (max-width: 768px) { 
+
+.hero-textwrapper { padding-bottom: 65px; } 
+
+
+
+.hero-col { max-width: 100%; flex-basis: 100%; }
+
+
+.hero-row { display: flex; margin-right: -15px; margin-bottom: -15px; margin-left: 20px;
+	 flex-wrap:wrap; align-content: stretch; }
+
+
+	}
