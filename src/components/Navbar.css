@@ -1,6 +1,13 @@
 
 /* for computer, there is no need for menu button, menu is displayed on top always*/
 
+body{
+
+
+	margin:0 !important;
+
+}
+
 .navbar{
 
 	background : #1c2237; /* dark blue */
@@ -9,11 +16,13 @@
 	justify-content:center;
 	align-items: center;
 	font-size: 1.2rem; /*120% of browser's font */
-	position: sticky; /* combination of relative and stick */
+	position: sticky; /* combination of relative and fixed */
 	top : 0;
 	z-index : 999; /* stack order */
+	width: 110%;
+		
 
-
+	
 
 
 }
@@ -92,7 +101,7 @@
 	justify-content: end;
 	position: absolute;
 	right : 10px;
-	top: -70px;
+	top: -100px;
 
 }
 
@@ -145,9 +154,10 @@
 
 	html,body{
 		width:100%;
-		top: -12.5px;
+		top: 0px;
 		position:relative;
 		right:10px;
+		margin:0 !important;
 
 	}
 
