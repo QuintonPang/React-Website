@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import {MdFingerprint} from "react-icons/md";
+//import {MdFingerprint} from "react-icons/md";
 import {FaTimes, FaBars,FaSun} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Button from "./Button";
@@ -41,6 +41,9 @@ const Navbar = () =>{
 		}else{
 			setButton(false);
 
+			//resets click state to prevent initial click state from being triggered again when going from desktop view to mobile view
+			setClick(false);
+
 		}
 
 
@@ -52,7 +55,7 @@ const Navbar = () =>{
 		window.addEventListener('resize',showButton);
 		return 
 
-			window.removeEventListener('resize',showButton)
+			//window.removeEventListener('resize',showButton);
 		
 
 

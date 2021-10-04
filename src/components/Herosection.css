@@ -1,6 +1,6 @@
 .hero-section { 
 color: #fff; padding: 160px 0;
-width:110%
+width:100%;
 
 }
 
@@ -12,7 +12,7 @@ width:110%
 align-items: center;}
 
 
-.hero-row { display: flex; margin-right: -15px; margin-bottom: -15px; margin-left: 20px; flex-wrap: ; align-content: stretch; }
+.hero-row { display: flex; margin-right: -15px; margin-bottom: -15px; margin-left: 20px; flex-wrap:nowrap; align-content: stretch; }
 
 
 
